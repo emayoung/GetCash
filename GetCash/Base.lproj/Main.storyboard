@@ -1,24 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JFI-5S-crb">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="7My-34-XyC">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <navigationController id="JFI-5S-crb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DdO-ov-fwR">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vGi-Tu-xx1" kind="relationship" relationship="rootViewController" id="Mgl-Ye-JBJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="feu-Zt-Cr9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-116" y="-269"/>
+        </scene>
+        <!--Onboarding View Controller-->
+        <scene sceneID="fN5-sC-vjh">
+            <objects>
+                <viewController id="vGi-Tu-xx1" customClass="OnboardingViewController" customModule="GetCash" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ai8-ZF-Aha">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_icon" translatesAutoresizingMaskIntoConstraints="NO" id="lZS-bp-2xi">
+                                <rect key="frame" x="119.5" y="104" width="175" height="176"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GETCASH is a service provided by Soko Lending Company Limited" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgy-A1-m5c">
+                                <rect key="frame" x="32" y="296" width="350" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.5.7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D6K-Tw-E9u">
+                                <rect key="frame" x="158.5" y="825" width="97" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RsO-pp-ItV" customClass="DesignableButton" customModule="GetCash" customModuleProvider="target">
+                                <rect key="frame" x="32" y="737" width="350" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="XVD-bz-NEl"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="56" id="oGx-lj-FzR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="SIGN UP">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXm-aQ-MQx" customClass="DesignableButton" customModule="GetCash" customModuleProvider="target">
+                                <rect key="frame" x="32" y="665" width="350" height="56"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="SM0-bg-Kh4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="SIGN IN">
+                                    <color key="titleColor" red="0.13725490196078433" green="0.81960784313725488" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490196078433" green="0.81960784313725488" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Jgy-A1-m5c" secondAttribute="trailing" constant="32" id="FGf-53-w8c"/>
+                            <constraint firstItem="obX-ce-fxS" firstAttribute="trailing" secondItem="RsO-pp-ItV" secondAttribute="trailing" constant="32" id="FiD-iE-bd1"/>
+                            <constraint firstItem="D6K-Tw-E9u" firstAttribute="top" secondItem="RsO-pp-ItV" secondAttribute="bottom" constant="32" id="GR5-Ck-IYS"/>
+                            <constraint firstItem="yXm-aQ-MQx" firstAttribute="leading" secondItem="obX-ce-fxS" secondAttribute="leading" constant="32" id="IOP-2Q-g4h"/>
+                            <constraint firstItem="lZS-bp-2xi" firstAttribute="centerX" secondItem="obX-ce-fxS" secondAttribute="centerX" id="JeQ-WF-fgD"/>
+                            <constraint firstItem="Jgy-A1-m5c" firstAttribute="leading" secondItem="obX-ce-fxS" secondAttribute="leading" constant="32" id="SA9-kf-dn2"/>
+                            <constraint firstItem="D6K-Tw-E9u" firstAttribute="centerX" secondItem="obX-ce-fxS" secondAttribute="centerX" id="TGW-R0-fHO"/>
+                            <constraint firstItem="lZS-bp-2xi" firstAttribute="top" secondItem="obX-ce-fxS" secondAttribute="top" constant="16" id="UOj-C3-unw"/>
+                            <constraint firstItem="Jgy-A1-m5c" firstAttribute="top" secondItem="lZS-bp-2xi" secondAttribute="bottom" constant="16" id="Z2y-2g-hhE"/>
+                            <constraint firstItem="obX-ce-fxS" firstAttribute="trailing" secondItem="yXm-aQ-MQx" secondAttribute="trailing" constant="32" id="Zdl-p2-Ewh"/>
+                            <constraint firstItem="RsO-pp-ItV" firstAttribute="leading" secondItem="obX-ce-fxS" secondAttribute="leading" constant="32" id="f3s-66-wkh"/>
+                            <constraint firstItem="RsO-pp-ItV" firstAttribute="top" secondItem="yXm-aQ-MQx" secondAttribute="bottom" constant="16" id="qWC-d6-McE"/>
+                            <constraint firstItem="obX-ce-fxS" firstAttribute="bottom" secondItem="D6K-Tw-E9u" secondAttribute="bottom" constant="16" id="vP4-gq-Gaj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="obX-ce-fxS"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pa3-BA-f59"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xWz-9L-d9t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="732" y="-268"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="app_icon" width="175" height="176"/>
+    </resources>
 </document>

@@ -14,12 +14,12 @@
 		B6844AF62389F28D0059AC39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6844AF42389F28D0059AC39 /* Main.storyboard */; };
 		B6844AF82389F2900059AC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6844AF72389F2900059AC39 /* Assets.xcassets */; };
 		B6844AFB2389F2900059AC39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6844AF92389F2900059AC39 /* LaunchScreen.storyboard */; };
-		B6CCA515238B295500A64529 /* SFProDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA513238B294A00A64529 /* SFProDisplay-Ultralight.ttf */; };
-		B6CCA516238B295800A64529 /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA512238B294A00A64529 /* SFProDisplay-Semibold.ttf */; };
-		B6CCA517238B295B00A64529 /* SFProDisplay-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA514238B294A00A64529 /* SFProDisplay-RegularItalic.ttf */; };
-		B6CCA518238B295E00A64529 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA510238B294A00A64529 /* SFProDisplay-Regular.ttf */; };
-		B6CCA519238B296100A64529 /* SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA50F238B294A00A64529 /* SFProDisplay-Medium.ttf */; };
-		B6CCA51A238B296400A64529 /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA511238B294A00A64529 /* SFProDisplay-Bold.ttf */; };
+		B6CCA522238B29BB00A64529 /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA521238B29AC00A64529 /* SFProDisplay-Bold.ttf */; };
+		B6CCA523238B29BE00A64529 /* SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA51C238B29AC00A64529 /* SFProDisplay-Medium.ttf */; };
+		B6CCA524238B29C100A64529 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA520238B29AC00A64529 /* SFProDisplay-Regular.ttf */; };
+		B6CCA525238B29C300A64529 /* SFProDisplay-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA51D238B29AC00A64529 /* SFProDisplay-RegularItalic.ttf */; };
+		B6CCA526238B29C700A64529 /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA51E238B29AC00A64529 /* SFProDisplay-Semibold.ttf */; };
+		B6CCA527238B29CA00A64529 /* SFProDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA51F238B29AC00A64529 /* SFProDisplay-Ultralight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +32,12 @@
 		B6844AF72389F2900059AC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6844AFA2389F2900059AC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6844AFC2389F2900059AC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6CCA50F238B294A00A64529 /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProDisplay-Medium.ttf"; path = "../../../../Downloads/SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
-		B6CCA510238B294A00A64529 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProDisplay-Regular.ttf"; path = "../../../../Downloads/SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
-		B6CCA511238B294A00A64529 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProDisplay-Bold.ttf"; path = "../../../../Downloads/SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
-		B6CCA512238B294A00A64529 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProDisplay-Semibold.ttf"; path = "../../../../Downloads/SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
-		B6CCA513238B294A00A64529 /* SFProDisplay-Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProDisplay-Ultralight.ttf"; path = "../../../../Downloads/SFProDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
-		B6CCA514238B294A00A64529 /* SFProDisplay-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProDisplay-RegularItalic.ttf"; path = "../../../../Downloads/SFProDisplay-RegularItalic.ttf"; sourceTree = "<group>"; };
+		B6CCA51C238B29AC00A64529 /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		B6CCA51D238B29AC00A64529 /* SFProDisplay-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-RegularItalic.ttf"; sourceTree = "<group>"; };
+		B6CCA51E238B29AC00A64529 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		B6CCA51F238B29AC00A64529 /* SFProDisplay-Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
+		B6CCA520238B29AC00A64529 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		B6CCA521238B29AC00A64529 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +95,7 @@
 		B6844AEF2389F28D0059AC39 /* GetCash */ = {
 			isa = PBXGroup;
 			children = (
-				B6CCA511238B294A00A64529 /* SFProDisplay-Bold.ttf */,
-				B6CCA50F238B294A00A64529 /* SFProDisplay-Medium.ttf */,
-				B6CCA510238B294A00A64529 /* SFProDisplay-Regular.ttf */,
-				B6CCA514238B294A00A64529 /* SFProDisplay-RegularItalic.ttf */,
-				B6CCA512238B294A00A64529 /* SFProDisplay-Semibold.ttf */,
-				B6CCA513238B294A00A64529 /* SFProDisplay-Ultralight.ttf */,
+				B6CCA51B238B299E00A64529 /* font */,
 				B6844AF42389F28D0059AC39 /* Main.storyboard */,
 				B6844AF72389F2900059AC39 /* Assets.xcassets */,
 				B6844AF92389F2900059AC39 /* LaunchScreen.storyboard */,
@@ -118,6 +113,19 @@
 				B65B955F238A080C00F53692 /* DesignableButton.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B6CCA51B238B299E00A64529 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				B6CCA521238B29AC00A64529 /* SFProDisplay-Bold.ttf */,
+				B6CCA51C238B29AC00A64529 /* SFProDisplay-Medium.ttf */,
+				B6CCA520238B29AC00A64529 /* SFProDisplay-Regular.ttf */,
+				B6CCA51D238B29AC00A64529 /* SFProDisplay-RegularItalic.ttf */,
+				B6CCA51E238B29AC00A64529 /* SFProDisplay-Semibold.ttf */,
+				B6CCA51F238B29AC00A64529 /* SFProDisplay-Ultralight.ttf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,15 +186,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6CCA51A238B296400A64529 /* SFProDisplay-Bold.ttf in Resources */,
-				B6CCA515238B295500A64529 /* SFProDisplay-Ultralight.ttf in Resources */,
-				B6CCA519238B296100A64529 /* SFProDisplay-Medium.ttf in Resources */,
-				B6CCA517238B295B00A64529 /* SFProDisplay-RegularItalic.ttf in Resources */,
 				B6844AFB2389F2900059AC39 /* LaunchScreen.storyboard in Resources */,
-				B6CCA518238B295E00A64529 /* SFProDisplay-Regular.ttf in Resources */,
+				B6CCA527238B29CA00A64529 /* SFProDisplay-Ultralight.ttf in Resources */,
+				B6CCA526238B29C700A64529 /* SFProDisplay-Semibold.ttf in Resources */,
+				B6CCA525238B29C300A64529 /* SFProDisplay-RegularItalic.ttf in Resources */,
 				B6844AF82389F2900059AC39 /* Assets.xcassets in Resources */,
-				B6CCA516238B295800A64529 /* SFProDisplay-Semibold.ttf in Resources */,
 				B6844AF62389F28D0059AC39 /* Main.storyboard in Resources */,
+				B6CCA524238B29C100A64529 /* SFProDisplay-Regular.ttf in Resources */,
+				B6CCA522238B29BB00A64529 /* SFProDisplay-Bold.ttf in Resources */,
+				B6CCA523238B29BE00A64529 /* SFProDisplay-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

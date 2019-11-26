@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B65B955E238A032C00F53692 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B955D238A032C00F53692 /* OnboardingViewController.swift */; };
+		B65B9560238A080C00F53692 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B955F238A080C00F53692 /* DesignableButton.swift */; };
 		B6844AF12389F28D0059AC39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6844AF02389F28D0059AC39 /* AppDelegate.swift */; };
 		B6844AF32389F28D0059AC39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6844AF22389F28D0059AC39 /* ViewController.swift */; };
 		B6844AF62389F28D0059AC39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6844AF42389F28D0059AC39 /* Main.storyboard */; };
 		B6844AF82389F2900059AC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6844AF72389F2900059AC39 /* Assets.xcassets */; };
 		B6844AFB2389F2900059AC39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6844AF92389F2900059AC39 /* LaunchScreen.storyboard */; };
+		B6CCA522238B29BB00A64529 /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA521238B29AC00A64529 /* SFProDisplay-Bold.ttf */; };
+		B6CCA523238B29BE00A64529 /* SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA51C238B29AC00A64529 /* SFProDisplay-Medium.ttf */; };
+		B6CCA524238B29C100A64529 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA520238B29AC00A64529 /* SFProDisplay-Regular.ttf */; };
+		B6CCA525238B29C300A64529 /* SFProDisplay-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA51D238B29AC00A64529 /* SFProDisplay-RegularItalic.ttf */; };
+		B6CCA526238B29C700A64529 /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA51E238B29AC00A64529 /* SFProDisplay-Semibold.ttf */; };
+		B6CCA527238B29CA00A64529 /* SFProDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA51F238B29AC00A64529 /* SFProDisplay-Ultralight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B65B955D238A032C00F53692 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B65B955F238A080C00F53692 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		B6844AED2389F28D0059AC39 /* GetCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6844AF02389F28D0059AC39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6844AF22389F28D0059AC39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		B6844AF72389F2900059AC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6844AFA2389F2900059AC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6844AFC2389F2900059AC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CCA51C238B29AC00A64529 /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		B6CCA51D238B29AC00A64529 /* SFProDisplay-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-RegularItalic.ttf"; sourceTree = "<group>"; };
+		B6CCA51E238B29AC00A64529 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		B6CCA51F238B29AC00A64529 /* SFProDisplay-Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
+		B6CCA520238B29AC00A64529 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		B6CCA521238B29AC00A64529 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B65B955A238A01D900F53692 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B65B955C238A01E700F53692 /* Authentication */,
+				B6844AF02389F28D0059AC39 /* AppDelegate.swift */,
+				B6844AF22389F28D0059AC39 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B65B955B238A01E000F53692 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B65B955C238A01E700F53692 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B65B955D238A032C00F53692 /* OnboardingViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		B6844AE42389F28D0059AC39 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +95,37 @@
 		B6844AEF2389F28D0059AC39 /* GetCash */ = {
 			isa = PBXGroup;
 			children = (
-				B6844AF02389F28D0059AC39 /* AppDelegate.swift */,
-				B6844AF22389F28D0059AC39 /* ViewController.swift */,
+				B6CCA51B238B299E00A64529 /* font */,
 				B6844AF42389F28D0059AC39 /* Main.storyboard */,
 				B6844AF72389F2900059AC39 /* Assets.xcassets */,
 				B6844AF92389F2900059AC39 /* LaunchScreen.storyboard */,
+				B65B955B238A01E000F53692 /* Model */,
+				B65B955A238A01D900F53692 /* Controller */,
+				B69A3064238A019F00C6EF45 /* View */,
 				B6844AFC2389F2900059AC39 /* Info.plist */,
 			);
 			path = GetCash;
+			sourceTree = "<group>";
+		};
+		B69A3064238A019F00C6EF45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B65B955F238A080C00F53692 /* DesignableButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6CCA51B238B299E00A64529 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				B6CCA521238B29AC00A64529 /* SFProDisplay-Bold.ttf */,
+				B6CCA51C238B29AC00A64529 /* SFProDisplay-Medium.ttf */,
+				B6CCA520238B29AC00A64529 /* SFProDisplay-Regular.ttf */,
+				B6CCA51D238B29AC00A64529 /* SFProDisplay-RegularItalic.ttf */,
+				B6CCA51E238B29AC00A64529 /* SFProDisplay-Semibold.ttf */,
+				B6CCA51F238B29AC00A64529 /* SFProDisplay-Ultralight.ttf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +187,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6844AFB2389F2900059AC39 /* LaunchScreen.storyboard in Resources */,
+				B6CCA527238B29CA00A64529 /* SFProDisplay-Ultralight.ttf in Resources */,
+				B6CCA526238B29C700A64529 /* SFProDisplay-Semibold.ttf in Resources */,
+				B6CCA525238B29C300A64529 /* SFProDisplay-RegularItalic.ttf in Resources */,
 				B6844AF82389F2900059AC39 /* Assets.xcassets in Resources */,
 				B6844AF62389F28D0059AC39 /* Main.storyboard in Resources */,
+				B6CCA524238B29C100A64529 /* SFProDisplay-Regular.ttf in Resources */,
+				B6CCA522238B29BB00A64529 /* SFProDisplay-Bold.ttf in Resources */,
+				B6CCA523238B29BE00A64529 /* SFProDisplay-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6844AF32389F28D0059AC39 /* ViewController.swift in Sources */,
+				B65B955E238A032C00F53692 /* OnboardingViewController.swift in Sources */,
 				B6844AF12389F28D0059AC39 /* AppDelegate.swift in Sources */,
+				B65B9560238A080C00F53692 /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,7 @@ class OnboardingViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -26,4 +27,18 @@ class OnboardingViewController: UIViewController {
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
+    @IBAction func goToSignUp(_ sender: Any) {
+        let signUpController = storyboard?.instantiateViewController(withIdentifier: "SignUpViewController") as? SignUpViewController
+        if let signUpController = signUpController {
+            present(signUpController, animated: true, completion: nil)
+        }
+    }
+    
+    
+    @IBAction func goToSignIn(_ sender: Any) {
+        let signUpController = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as? SignInViewController
+        if let signUpController = signUpController {
+            present(signUpController, animated: true, completion: nil)
+        }
+    }
 }

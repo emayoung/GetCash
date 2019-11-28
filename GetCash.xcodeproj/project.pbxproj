@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6294B7F238E75AC00CDAA25 /* RoundedLeftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6294B7E238E75AC00CDAA25 /* RoundedLeftUIView.swift */; };
+		B6294B81238E7C0900CDAA25 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6294B80238E7C0900CDAA25 /* RoundedView.swift */; };
 		B65B955E238A032C00F53692 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B955D238A032C00F53692 /* OnboardingViewController.swift */; };
 		B65B9560238A080C00F53692 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B955F238A080C00F53692 /* DesignableButton.swift */; };
 		B6844AF12389F28D0059AC39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6844AF02389F28D0059AC39 /* AppDelegate.swift */; };
@@ -20,9 +22,14 @@
 		B6CCA525238B29C300A64529 /* SFProDisplay-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA51D238B29AC00A64529 /* SFProDisplay-RegularItalic.ttf */; };
 		B6CCA526238B29C700A64529 /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA51E238B29AC00A64529 /* SFProDisplay-Semibold.ttf */; };
 		B6CCA527238B29CA00A64529 /* SFProDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CCA51F238B29AC00A64529 /* SFProDisplay-Ultralight.ttf */; };
+		B6EB5C0A238E8D4800691A49 /* RoundedRightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EB5C09238E8D4800691A49 /* RoundedRightButton.swift */; };
+		B6EB5C0C238EA0AD00691A49 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EB5C0B238EA0AD00691A49 /* SignUpViewController.swift */; };
+		B6EB5C0E238EAE8A00691A49 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EB5C0D238EAE8A00691A49 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6294B7E238E75AC00CDAA25 /* RoundedLeftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLeftUIView.swift; sourceTree = "<group>"; };
+		B6294B80238E7C0900CDAA25 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		B65B955D238A032C00F53692 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		B65B955F238A080C00F53692 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		B6844AED2389F28D0059AC39 /* GetCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +45,9 @@
 		B6CCA51F238B29AC00A64529 /* SFProDisplay-Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
 		B6CCA520238B29AC00A64529 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
 		B6CCA521238B29AC00A64529 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		B6EB5C09238E8D4800691A49 /* RoundedRightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRightButton.swift; sourceTree = "<group>"; };
+		B6EB5C0B238EA0AD00691A49 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../SignUpViewController.swift; sourceTree = "<group>"; };
+		B6EB5C0D238EAE8A00691A49 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,8 @@
 		B65B955C238A01E700F53692 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				B6EB5C0B238EA0AD00691A49 /* SignUpViewController.swift */,
+				B6EB5C0D238EAE8A00691A49 /* SignInViewController.swift */,
 				B65B955D238A032C00F53692 /* OnboardingViewController.swift */,
 			);
 			path = Authentication;
@@ -111,6 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				B65B955F238A080C00F53692 /* DesignableButton.swift */,
+				B6294B7E238E75AC00CDAA25 /* RoundedLeftUIView.swift */,
+				B6294B80238E7C0900CDAA25 /* RoundedView.swift */,
+				B6EB5C09238E8D4800691A49 /* RoundedRightButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,8 +222,13 @@
 			files = (
 				B6844AF32389F28D0059AC39 /* ViewController.swift in Sources */,
 				B65B955E238A032C00F53692 /* OnboardingViewController.swift in Sources */,
+				B6EB5C0C238EA0AD00691A49 /* SignUpViewController.swift in Sources */,
 				B6844AF12389F28D0059AC39 /* AppDelegate.swift in Sources */,
+				B6EB5C0A238E8D4800691A49 /* RoundedRightButton.swift in Sources */,
+				B6EB5C0E238EAE8A00691A49 /* SignInViewController.swift in Sources */,
+				B6294B81238E7C0900CDAA25 /* RoundedView.swift in Sources */,
 				B65B9560238A080C00F53692 /* DesignableButton.swift in Sources */,
+				B6294B7F238E75AC00CDAA25 /* RoundedLeftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
